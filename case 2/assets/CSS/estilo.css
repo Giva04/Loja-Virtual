@@ -1,0 +1,175 @@
+    /* estilzando toda a pagina */
+body{
+    background-color: #cccccc;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* estilizando o menu de opçoes superior */
+nav{
+    display: flex;
+    background-color: orange;
+    box-shadow: 2px 2px 6px #42424398;
+}
+    nav ul{
+        width: 100%;
+        height: 50px;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;       
+
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color:white;
+
+    }
+    nav .ativa{
+        color:black;
+    }
+main h1{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#principal{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+    #Pagamento{
+        width: 68%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    form{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    form input{
+        height: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;     
+        border-radius: 5px;
+        border:1px solid #ccc;         
+    }
+    form input ::placeholder{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    #seguranca{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #validade{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cvv{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+    }
+
+#TotalCompra{
+    width: 30%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+    #TotalCompra ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: white;
+
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        text-align: left;
+        
+    }
+
+    #TotalCompra ul li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        margin: 5px; 
+        padding: 5px;       
+        font-size: 25px;
+
+    }
+    .desc{
+        color:orange ;
+        font-weight: bold;
+    }
+    .desc h5{
+        font-weight: bold !important;
+    }
+
+    .total{
+        /* !important força o destaque no elemento selecionado */
+        padding: 10px !important;
+        font-weight: bold !important;
+        margin-top: 30px !important;
+    }
+
+    .total h5{
+        /* !important força o destaque no elemento selecionado */
+        padding: 10px !important;
+        font-weight: bold !important;
+    }
+
+    #TotalCompra ul li h5{
+        margin: 0px;
+        padding: 0px;
+        font-weight: normal;
+    }
+    #TotalCompra button{
+        height: 55px;
+        width: 100%;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 0px;
+        box-shadow: 1px 6px 3px rgba(108, 73, 7, 0.963);
+        background-color: orange;
+        color:white;
+
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    #TotalCompra button:hover{
+        background-color: rgba(108,73,7,0.963);
+        color:orange;
+    }
+   

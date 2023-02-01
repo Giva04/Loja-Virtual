@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/CSS/estilo.css" type="text/css" />
+    <title>Loja Virtual</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Sacola</li>
+        <li class="ativa">Pagamento</li>
+        <li>Confirmação</li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Dados para Pagamento</h1>
+      <section id="principal">
+        <section id="Pagamento">
+          <form>
+            <label>Número do Cartão de Crédito</label>
+            <input type="text" />
+            <label>Nome do Titular</label>
+            <input type="text" placeholder="Igual ao cartão" />
+
+            <div id="seguranca">
+              <div id="validade">
+                <label>Validade (mês/ano)</label>
+                <input type="number" />
+              </div>
+
+              <div id="cvv">
+                <label>CVV:</label>
+                <input type="number" />
+              </div>
+            </div>
+          </form>
+          <img src="assets/images/img_cartao.jpg" width="290" />
+        </section>
+        <section id="TotalCompra">
+          <ul>
+            <li>
+              <h5>Produtos</h5>
+              <span>R$ 958,00</span>
+            </li>
+            <li>
+              <h5>Frete</h5>
+              <span>R$ 12,00</span>
+            </li>
+            <li class="desc">
+              <h5>Desconto</h5>
+              <span>R$ 60,00</span>
+            </li>
+            <li class="total">
+              <h5>Total</h5>
+              <span>R$ 910,00</span>
+            </li>
+          </ul>
+          <button>Seguir para o Pagamento</button>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
